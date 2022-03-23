@@ -11,8 +11,8 @@ int main(){
   double a=1.0;
   double b=1.0;
   double c=1.0;
-  std::cout<<"c \t  x1 \t x2 \t x1'\t x2' \n";
-  for(int n=0;n<=10;n++){
+  std::cout<<"c \t \t  x1 \t \t x2 \t \t x1' \t \t x2' \n";
+  for(int n=1;n<=10;n++){
     c=std::pow(10,-n);
     std::cout<<c<<"\t"<<form1_plus(a,b,c)<<"\t"<<form1_minus(a,b,c)<<"\t"<<form2_plus(a,b,c)<<"\t"<<form2_minus(a,b,c)<<"\n";
   }
